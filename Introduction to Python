@@ -1,0 +1,78 @@
+INTRODUCTION TO PYTHON
+Chap-01
+
+Getting started : Introduction to Python
+Python was created by Guido Van Rossum. This language was released in 1991and got its names from BBC comedy serves "Monty Python's Flying Circus".
+To write and run programs in Python
+we need to have a  Python interpreter installed on our computers, the interpretor is an "Graphical User Interface Integrated Development Environment" and is the most popular development environment, the Python version we are using is python version 2.7, 
+The Python Shell can be used in two ways i.e.:
+Interactive mode and the Script mode.
+Interactive mode allows us to interact with the operating system.
+Script mode allows us to create and edit Python source file.
+1) The Interactive mode:
+the various steps are as follows:
+a) Start Python on your computer.
+b) Start Integrated Development Environmen, the window will appear.
+c) It is the interactive mode of python and as we see the first line shows the Python version 2.7, the Python prompt i.e. >>> appears on the the interactive mode and this is the primary prompt indicating that the the interpreter is expecting a Python command, the secondary prompt can be '_ _ _' indicating that interpreter is waiting for the additional input to complete the current statement.
+d) We type Python expression / statement / command after the prompt and Python immediately response with the output of it for ex:
+>>> print "How are you?"
+Few more examples:
+I) print 5 + 7
+ii) 5 + 7
+iii) 6 * 250/9
+iv) print 5 -7 
+sequence of a instructions can also be given as
+ex1:
+>> x = 2
+>>> y = 6
+>>> z = x + y
+>>> print z
+8
+ex 2:
+>>> a = 3
+>>> a + 1, a - 1
+(4, 2)
+Important: 
+Python is case sensitive; x and X are different in Python..
+If we want to repeat previous command then press the  up arrow sign backward through the command history and down arrow key to scroll forward. use enter to select them.
+Some key features of the language are:
+1- Python programs can run on any platform, you can carry code created in Windows machine and run it on Mac or Linux and Python can be used for both scientific and non scientific programming.
+2- Python is free and open source and it is about one third of the size of equivalent C++ and Java code.
+3- Python has inbuilt large library with prebuilt and portable functions, also known as the standard library
+4- Python can be both dynamically and strongly typed--dynamically typed means it
+is a type of variable that is interpreted at runtime, which means, in Python, there
+is no need to define the type (int or float) of the variable
+
+3- This language is used for generating real revenue for example NASA, Intel, Cisco, IBM, HP uses python. Also interactive applications like Google search engine and YouTube uses it.
+Exploring the interpreter further more:
+Type credits after the prompt, the result is the information involved in Python development
+Tpe copyright and licences command can be used to know more about python.
+Help() command provides help about the python. It is used as _ _ _ _ help(), but nothing in parentheses, it will allow us an interactive and a name  that gives us the details of the word referred. To leave the help mode and return back to interactive mode quit command can be used.
+2) The Script mode
+Python programs are typed in a file and then the interpreter is used to execute the content from the file. Working on interactive mode is convenient for beginners and also for testing small pieces of code.
+For putting more than few lines, we have to save our code so that we can modify as well as reuse the code that cannot be done in a interactive mode so the script mode is used.
+The interactive mode is easy enough to learn, experiment or explore but it has various drawback of the interactive mode is thatwe cannot save the statements for the further use and have to retype the statement to re-run them.
+To create and run a python script we have to use the following steps in IDE, if the script mode is not made available by default with IDE environment then 
+Step I) Press File -> Open or File -> New window (for creating a new script file)
+Step Ii) Write the python code as function i.e script.
+Step III) Save it (^S)
+Step IV) Execute it in interactive mode by using RUN option (^F5) 
+(If the script mode is available) we just have to start from step II.
+For every updation of script file, we need to repeat step III and IV.
+Ex: Write a simple code in script mode.
+Soln:
+Step 1: 
+File ->New Window
+Step 2: 
+Def test();
+x = 2
+y = 6
+z = x + y
+print z
+Step 3:
+Use File -> Save as option for saving the file.
+(All Python program files have names which end with .py)
+Step 4:
+For executing the file, press ^F5 and we will be getting a Python prompt (in other window)
+OR
+We can execute the script directly by choosing the RUN option. For working in script mode we add print statement in our program to see the result which otherwise would have displayed on screen in interactive mode.
